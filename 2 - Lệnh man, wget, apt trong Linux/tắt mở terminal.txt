@@ -1,0 +1,4 @@
+Ctrl + Alt + T - để mở terminal
+Ctrl + D  - ẩn terminal
+gõ exit - để thoát/tắt terminal
+

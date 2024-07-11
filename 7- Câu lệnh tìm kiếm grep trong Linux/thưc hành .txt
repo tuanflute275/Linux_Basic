@@ -1,0 +1,12 @@
+grep "error" /var/log/syslog
+
+==> tìm kiếm từ error trong file syslog
+
+
+ls -l | grep "file*"
+
+==> tìm kiếm các file bắt đầu bằng từ file trong thư mục mình ls ra
+==> kết quả trước | sẽ dùng cho sau |
+
+
+==> cat index.html | grep 60

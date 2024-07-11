@@ -1,0 +1,18 @@
+vi tenfile (nếu có thì mở lên và còn k có mở lên dạng newfile)
+
+sau khi vào trình soạn thảo vi thì nhấn i hoặc a để viết dữ liệu
+xong muốn lưu thì nhấn esc góc trái màn hình chọn 
+:w để lưu nhưng k tắt màn hình
+:q! thoát và không lưu các thay đổi 
+:wq thoát và lưu
+:x thoát và lưu
+
+u để ctrl Z
+? tìm phía trên con trỏ 
+/ tìm phía dưới con trỏ
+
+
+ví dụ:
+ 
+?test + enter ==> tìm các phần khác nhấn n
+/test + enter ==> tìm các phần khác nhấn n

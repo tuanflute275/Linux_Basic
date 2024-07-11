@@ -1,0 +1,7 @@
+top + enter => mở task manage cập nhật theo thời gian
+
+
+df -h   => kiểm tra dung lượng
+
+free  => kiểm tra ram và swap
+

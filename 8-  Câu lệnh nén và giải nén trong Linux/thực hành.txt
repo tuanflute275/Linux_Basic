@@ -1,0 +1,20 @@
+thư mục test có file doc.txt
+
+
+
+gzip doc.txt  ==> nén file doc.txt thành file zip có dạng doc.txt.gz
+gunzip -r doc.txt ==> giải nén file
+
+
+gzip -r test ==> nén thư mục test thành file zip và các file trong thư mục test sẽ dc giải nén
+gunzip -r . ==> giải toàn bộ file
+
+
+
+
+tar -czvf tenfilenen.tar.gz test  ==>  nén thư mục test với 1 thư mục mới có tên tenfilenen.tar.gz 
+
+// giải nén tar
+mkdir temp => tạo thư mục chứa file sau giải nén
+
+tar -xzvf tenfilenen.tar.gz -C ./temp/   =>  giải nén xong đưa vào thư mục temp

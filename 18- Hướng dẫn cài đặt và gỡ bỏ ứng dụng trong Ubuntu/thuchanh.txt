@@ -1,0 +1,7 @@
+
+==> cài đặt phần mềm
+sudo apt-get install firefox 
+
+
+=> xóa phần mềm
+sudo apt-get remove firefox

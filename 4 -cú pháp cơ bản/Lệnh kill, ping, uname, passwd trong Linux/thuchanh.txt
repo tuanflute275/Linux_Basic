@@ -1,0 +1,11 @@
+ps aux ==> để mở task manage linux 
+
+kill -9 cổng   => tắt luôn
+
+
+ping tuanflute275.site
+ping google.com
+
+==> kiểm tra tốc độ mạng của website như ping trong game
+
+passwd => đổi mật khẩu

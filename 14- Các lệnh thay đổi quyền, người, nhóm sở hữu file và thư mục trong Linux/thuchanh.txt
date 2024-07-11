@@ -1,0 +1,16 @@
+chmode 777 'index.txt'   => toàn quyền
+chmode 644 'index.txt'   => quyền mặc định
+
+777  => số đầu tiên đại diện cho người sở hữu
+	số thứ hai đại diện cho người dùng
+	số thứ 3 đại diện cho các other
+
+
+chown ==> thay đổi người sở hữu file
+chown tenuserkhac tenfile
+ví dụ: chown tuanflute index.txt
+
+
+chgrp  ==> thay đổi người sở hữu thư mục
+chown tenuserkhac tenthumuc
+ví dụ: chown tuanflute thumuc

@@ -1,0 +1,31 @@
+đứng ở root
+
+cat /proc/meminfo   ==> câu lệnh xem RAM
+cat /proc/cpuinfo   ==> câu lệnh xem CPU
+cat /etc/passwd     ==> xem các tài khoản người dùng
+cat /etc/shadow     ==> xem mật khẩu với  quyền root
+cat /etc/group      ==> xem thông tin nhóm
+
+uname -a ==> tên KERNEL
+df -h    => xem thông tin ổ cứng
+top      ==> xem tiến trình
+hostname  ==> xem tên serve
+
+ifconfig   ==> xem ip
+nếu k được ==> sudo apt install net-tools
+
+
+thêm tài khoản người dùng:  useradd -c "tuanflute" tuanflute
+sửa tài khoản người dùng :  usermod -L "update" -c "update" -m -d /home/tuanflute tuanflute	
+			    usermod -L "tên_login" -c "tên_bí_danh" -m -d thư_mục
+xóa tài khoản người dùng :  userdel tuanflute
+
+
+=====>        groupadd -g id namegroup
+thêm nhóm  :  groupadd -g 222 test
+sửa nhóm   :  groupmod -g 333 test	
+xóa nhóm   :  groupdel test
+
+
+
+

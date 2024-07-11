@@ -1,0 +1,53 @@
+* - đại diện cho tất cả
+? - đại diện cho  1
+
+đã có thư mục document và backup
+
+ví dụ: cp document/*.txt backup
+==> copy toàn bộ file có đuôi là .txt
+
+ví dụ: cp document/file* backup
+=> copy toàn bộ file có tên bắt đầu là file
+
+ví dụ: cp document/file?.* backup
+=> copy file nao có thêm 1 kí tự nữa sau file và đuôi bất kì
+(như file1, file2, ...   file3a là lỗi vì có 2 kí tự ở sau)
+
+====>  tương tự với mv - di chuyển và rm xóa
+
+===========================================================================================================================================
+
+> kí tự này là ghi đè file 
+ví dụ: 
+lần 1:  echo "xin chào" > hello.txt
+lần 2: 	echo "hello" > hello.txt
+
+==> cat hello.txt ==> kết quả là hello vì đã bị ghi đè bởi lần 2
+
+							
+
+>> kí tự này là ghi thêm nọi dung vào file 
+ví dụ: 
+lần 1:  echo "xin chào" >> hello.txt
+lần 2: 	echo "hello" >> hello.txt
+
+==> cat hello.txt ==> kết quả là xin chào hello vì ghi thêm vào chứ k ghi đè như trên
+
+
+| - gọi là pipeline
+
+ví dụ: ls -l | wc -l
+ls -l để lấy ra toàn bộ thư mục
+wc -l để đếm
+
+kết quả từ ls -l sẽ dùng để wc -l biết và đếm
+
+
+============================================================================================================================================
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+ls -la / -> xem tòan bộ file 
+ls -R -> chi tiết thư mục
+
+mkdir -p a/b/c -> tạo thư mục b trong thư mục c, tạo thư mục c trong thư mục b
